@@ -43,6 +43,27 @@ No modelo baseado em consumo, você paga **somente pelos recursos utilizados**, 
 
 ---
 
+### 📊 SLA (Service Level Agreement)
+
+Um **SLA (Acordo de Nível de Serviço)** é o compromisso formal assumido por um provedor de nuvem, como o Azure, garantindo um **nível mínimo de disponibilidade** dos seus serviços.
+
+- **Exemplo:** Um SLA de 99,9% significa que o serviço estará disponível por no mínimo 99,9% do tempo em um determinado período (geralmente mensal).
+
+#### 🔹 Importância do SLA:
+- Define expectativas claras sobre a **disponibilidade** do serviço.
+- Ajuda a escolher **serviços confiáveis** de acordo com a necessidade do negócio.
+- Pode influenciar decisões de **redundância e alta disponibilidade**.
+
+#### 🔹 Tipos comuns de SLA:
+| SLA (%)  | Tempo de Inatividade por mês |
+|----------|------------------------------|
+| 99%      | ~7h 18min                    |
+| 99,9%    | ~43min                       |
+| 99,99%   | ~4min                        |
+| 99,999%  | ~26s                         |
+
+> 💡 Dica: Para sistemas críticos, busque serviços com SLA mais alto e avalie estratégias como **regiões redundantes** ou **zonas de disponibilidade**.
+
 ## 🌟 Benefícios da Nuvem
 
 ### 🔹 Alta Disponibilidade
